@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A2FA0EA11B0C294D0010902C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FA0EA01B0C294D0010902C /* main.swift */; };
+		A2FA0EA81B0C2B590010902C /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FA0EA71B0C2B590010902C /* utils.swift */; };
+		A2FA0EAA1B0C379A0010902C /* files.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FA0EA91B0C379A0010902C /* files.swift */; };
+		A2FA0EAE1B0C3B190010902C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FA0EAD1B0C3B190010902C /* File.swift */; };
+		A2FA0EB01B0CE58C0010902C /* print.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FA0EAF1B0CE58C0010902C /* print.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A2FA0E9D1B0C294D0010902C /* SwiftStatistics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftStatistics; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FA0E9D1B0C294D0010902C /* swiftstats */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftstats; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FA0EA01B0C294D0010902C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A2FA0EA71B0C2B590010902C /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		A2FA0EA91B0C379A0010902C /* files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = files.swift; sourceTree = "<group>"; };
+		A2FA0EAD1B0C3B190010902C /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A2FA0EAF1B0CE58C0010902C /* print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = print.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +57,7 @@
 		A2FA0E9E1B0C294D0010902C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2FA0E9D1B0C294D0010902C /* SwiftStatistics */,
+				A2FA0E9D1B0C294D0010902C /* swiftstats */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				A2FA0EA01B0C294D0010902C /* main.swift */,
+				A2FA0EA71B0C2B590010902C /* utils.swift */,
+				A2FA0EA91B0C379A0010902C /* files.swift */,
+				A2FA0EAF1B0CE58C0010902C /* print.swift */,
+				A2FA0EAD1B0C3B190010902C /* File.swift */,
 			);
 			path = SwiftStatistics;
 			sourceTree = "<group>";
@@ -79,7 +91,7 @@
 			);
 			name = SwiftStatistics;
 			productName = SwiftStatistics;
-			productReference = A2FA0E9D1B0C294D0010902C /* SwiftStatistics */;
+			productReference = A2FA0E9D1B0C294D0010902C /* swiftstats */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +130,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FA0EAE1B0C3B190010902C /* File.swift in Sources */,
+				A2FA0EB01B0CE58C0010902C /* print.swift in Sources */,
 				A2FA0EA11B0C294D0010902C /* main.swift in Sources */,
+				A2FA0EA81B0C2B590010902C /* utils.swift in Sources */,
+				A2FA0EAA1B0C379A0010902C /* files.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,14 +222,14 @@
 		A2FA0EA51B0C294D0010902C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = swiftstats;
 			};
 			name = Debug;
 		};
 		A2FA0EA61B0C294D0010902C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = swiftstats;
 			};
 			name = Release;
 		};
