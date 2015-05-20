@@ -22,3 +22,11 @@ Total             134
 ```
 Neato!
 
+## Author
+
+Brad Hilton, brad@skyvive.com
+
+## License
+
+SwiftStatistics is available under the MIT license. See the LICENSE file for more info.
+
